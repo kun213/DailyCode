@@ -186,3 +186,191 @@ JDBC:  JVM加载数据库驱动程序
 - 成员变量使用`private` ，隐藏细节。
 - 构造方法使用` public` ，方便创建对象。
 - 成员方法使用`public` ，方便调用方法。
+
+### 内部类
+
+**1、内部类的概念**
+
+将一个类A定义在另一个类B里面，里面的那个类A就称为**内部类**，B则称为**外部类**。
+
+定义格式:
+
+```java
+class 外部类 {
+    class 内部类{
+
+    }
+}
+```
+
+在描述事物时，若一个事物内部还包含其他事物，就可以使用内部类这种结构。比如，汽车类`Car` 中包含发动机类`Engine` ，这时，`Engine `就可以使用内部类来描述，定义在成员位置。
+
+**成员内部类**
+
+代码举例：
+
+```java
+class Car { //外部类
+    class Engine { //内部类
+
+    }
+}
+```
+创建内部类对象格式：
+
+```java
+外部类名.内部类名 对象名 = new 外部类型().new 内部类型()；
+```
+
+**匿名内部类** ：是内部类的简化写法。它的本质是一个`带具体实现的` `父类或者父接口的` `匿名的` **子类对象**。
+
+定义接口,实现类实现接口,重写方法
+
+匿名内部类,简化实现类的书写
+
+格式：
+
+```java
+new 父类名或者接口名(){
+    // 方法重写
+    public void method() {
+        // 执行语句
+    }
+};
+
+```
+
+**匿名内部类实现重写抽象方法**
+
+代码：
+
+```java
+public static void main(String[] args) {
+        /**
+         * 匿名内部类,就是接口实现类的对象
+         * 对象多态性:
+         *   接口实现,方法重写,父类或者接口引用 = new 实现类对象()
+         *   父类或者接口引用 = new 实现类对象()
+         */
+        MyInterface  my = new MyInterface(){
+            public void show(){
+                System.out.println("实现类重写方法show");
+            }
+            public void show2(){
+                System.out.println("实现类重写方法show2");
+            } };
+        my.show();
+        my.show2();
+    }
+```
+
+###       引用类型传递
+
+**1、类名作为方法参数和返回值**
+
+- 类名作为方法的形参
+
+  方法的形参是类名，其实需要的是该类的对象
+
+  实际传递的是该对象的【地址值】
+
+- 类名作为方法的返回值
+
+  方法的返回值是类名，其实返回的是该类的对象
+
+  实际传递的，也是该对象的【地址值】
+
+- 示例代码：
+
+  ```java
+  public class Person{
+    public void eat(){
+      System.out.println("人吃了");
+    }
+  }
+  public class Test{
+    public static void main(String[] args){
+          method(new Person());
+     		Person p = method2();
+    }
+    pubic static void method(Person p){
+         p.eat();
+    }
+    public static Person method2(){
+      	return new Person();
+    }
+  }
+
+  ```
+  
+
+**2、抽象类作为形参和返回值**
+
+- 抽象类作为形参和返回值
+
+  - 方法的形参是抽象类名，其实需要的是该抽象类的子类对象
+  - 方法的返回值是抽象类名，其实返回的是该抽象类的子类对象
+
+- 示例代码：
+
+  ```java
+  public abstract class Animal{
+    	public abstract void eat();
+  }
+  public class Cat extends Animal{
+    public void eat(){
+      System.out.println("猫吃鱼");
+    }
+  }
+  public class Test{
+    public static void main(String[] args){
+        method(new Cat());
+      
+       Animal a = method2();
+      
+    }
+    public static void method(Animal a){
+         a.eat();
+    }
+    public static Animal method2(){
+      	return new cat();
+    }
+  }
+
+  ```
+
+**3、接口名作为形参和返回值**
+
+- 接口作为形参和返回值
+
+  - 方法的形参是接口名，其实需要的是该接口的实现类对象
+  - 方法的返回值是接口名，其实返回的是该接口的实现类对象
+
+- 示例代码：
+
+  ```java
+   public interface Fly{
+      public abstract void fly();
+   }
+  public class Bird implements Fly{
+    public void fly(){
+      System.out.println("我飞了");
+    }
+  }
+  public class Test{
+    public static void main(String[] args){
+        method(new Bird());
+      
+       Fly f = method2();
+      
+    }
+    public static void method(Fly f){
+       	f.fly();
+    }
+    public static Fly method2(){
+      	return new Bird();
+    }
+  }
+  ```
+  ![](https://cdn.jsdelivr.net/gh/kun213/picbed/img/20200920140221.JPG)
+
