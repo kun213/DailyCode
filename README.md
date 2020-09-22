@@ -6,10 +6,13 @@
 
 # 每日学习记录
 
+
+
 ## [day01面向对象【继承、抽象类】-2020.9.16](docs/java/day01面向对象（继承、抽象类）.md)
 ## [day02面向对象【接口，多态】-2020.9.17](docs/java/day02面向对象（接口与多态）.md)
 ## [day03面向对象【修饰符、内部类、参数传递】-2020.9.18](docs/java/day03面向对象（修饰符、内部类、参数传递）.md)
 ## [day04常用API【Object类、DateFormat类】-2020.9.20](docs/java/day04常用API(Object类、DateFormat类).md)
+## [day05API-异常【API、异常】-2020.9.22](docs/java/day05API-异常（API、异常）.md)
 
 ------
 
