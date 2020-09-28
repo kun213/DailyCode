@@ -14,6 +14,10 @@
 ## [day04常用API【Object类、DateFormat类】-2020.9.20](docs/java/day04常用API(Object类、DateFormat类).md)
 ## [day05API-异常【API、异常】-2020.9.22](docs/java/day05API-异常（API、异常）.md)
 
+## [day06集合 -2020.9.25](docs/java/day06集合[1].md)
+
+## [day07集合-2020.9.27](docs/java/day07集合[2].md)
+
 ------
 
 微信公众号：CodeBull，可以一起学习交流
