@@ -1,4 +1,4 @@
-# DailyCode
+# DailyCode（每日学习记录）
 
  `每天学习进程记录`
 
@@ -17,6 +17,8 @@
 ## [day06集合 -2020.9.25](docs/java/day06集合[1].md)
 
 ## [day07集合-2020.9.27](docs/java/day07集合[2].md)
+
+## [day08集合-2020.10.5](docs/java/day08集合[3].md)
 
 ------
 
