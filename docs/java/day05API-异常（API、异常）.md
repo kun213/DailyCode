@@ -183,6 +183,18 @@ public static void main(String[] args) {
     }
 ```
 
+String转换成基本类型 
+
+除了Character类之外，其他所有包装类都具有parseXxx静态方法可以将字符串参数转换为对应的基本类型：
+
+- `public static byte parseByte(String s)`：将字符串参数转换为对应的byte基本类型。
+- `public static short parseShort(String s)`：将字符串参数转换为对应的short基本类型。
+- `public static int parseInt(String s)`：将字符串参数转换为对应的int基本类型。
+- `public static long parseLong(String s)`：将字符串参数转换为对应的long基本类型。
+- `public static float parseFloat(String s)`：将字符串参数转换为对应的float基本类型。
+- `public static double parseDouble(String s)`：将字符串参数转换为对应的double基本类型。
+- `public static boolean parseBoolean(String s)`：将字符串参数转换为对应的boolean基本类型。
+
 ### 异常
 
 #### 1、如何辨别程序中异常和错误
