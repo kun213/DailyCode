@@ -1,10 +1,10 @@
-# DailyCode（每日学习记录）
+# DailyCode
 
  `每天学习进程记录`
 
 <img src="https://cdn.jsdelivr.net/gh/kun213/picbed/img/20200917163241.jpg" alt="222" style="zoom: 67%;" />
 
-# 每日学习记录
+# 代码记录
 
 
 
