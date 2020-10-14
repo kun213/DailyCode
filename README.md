@@ -1,36 +1,36 @@
-# DailyCode
+> 这个项目是我的代码库，记录我自学Java从0到1的所有代码
 
- `每天学习进程记录`
+**不说了，开始动手敲代码了**
 
-<img src="https://cdn.jsdelivr.net/gh/kun213/picbed/img/20200917163241.jpg" alt="222" style="zoom: 67%;" />
+<h1 align="center">Daily Code</h1>
 
-# 代码记录
+<p align="center">
+  <a href="#公众号">
+    <img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-CodeBull-success.svg" alt="公众号：CodeBull"></a>
+  <a href="https://blog.csdn.net/CodeBull_K"><img src="https://img.shields.io/badge/csdn-CSDN-red.svg" alt="CSDN：CodeBull"></a>
+  <a href="https://juejin.im/user/3500443281667448"><img src="https://img.shields.io/badge/juejin-掘金-blue.svg" alt="掘金：CodeBull"></a>
+     <a href="https://www.cnblogs.com/codebull/"><img src="https://img.shields.io/badge/cnblogs-%E5%8D%9A%E5%AE%A2%E5%9B%AD-inactive.svg" alt="cnblogs：CodeBull"></a>
+  <a href="https://www.zhihu.com/people/codebull"><img src="https://img.shields.io/badge/zhihu-知乎-informational" alt="知乎：CodeBull"></a>
+</p>
+------
 
 
 
-## [day01面向对象【继承、抽象类】-2020.9.16](docs/java/day01面向对象（继承、抽象类）.md)
-## [day02面向对象【接口，多态】-2020.9.17](docs/java/day02面向对象（接口与多态）.md)
-## [day03面向对象【修饰符、内部类、参数传递】-2020.9.18](docs/java/day03面向对象（修饰符、内部类、参数传递）.md)
-## [day04常用API【Object类、DateFormat类】-2020.9.20](docs/java/day04常用API(Object类、DateFormat类).md)
-## [day05API-异常【API、异常】-2020.9.22](docs/java/day05API-异常（API、异常）.md)
 
-## [day06集合 -2020.9.25](docs/java/day06集合[1].md)
-
-## [day07集合-2020.9.27](docs/java/day07集合[2].md)
-
-## [day08集合-2020.10.5](docs/java/day08集合[3].md)
-
-## [day09多线程-2020.10.6](docs/java/day09多线程[1].md)
-
-## [day10多线程-2020.10.9](docs/java/day10多线程[2].md)
-
-## [day11-IO流-2020.10.10](docs/java/day11-IO流[1].md)
 
 
 
 ------
 
-微信公众号：CodeBull，可以一起学习交流
+### 公众号
 
-<img src="https://cdn.jsdelivr.net/gh/kun213/picbed/img/20200917162609.jpg" alt="111111" style="zoom: 80%;" />
+ <a name="公众号"></a>
+
+如果对自学的你有帮助的话可以点「**赞**」在看或 :star: **Star**，谢谢你！
+
+如果大家想要更加了解我，可以关注「 **CodeBull** 」公众号。
+
+让我们一起学习。
+
+![公众号](https://cdn.jsdelivr.net/gh/kun213/picbed/img/20200917162609.jpg)
 
